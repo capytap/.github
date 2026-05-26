@@ -13,14 +13,18 @@ A desktop client that turns "I bought a VPS but don't know how to use it" into "
 - **Python orchestrator** — deterministic install flow (sing-box, systemd, ufw, certs)
 - **Tauri + React client** — Windows-first, macOS / Android later
 
+> v1 Tauri desktop client scaffolded 2026-05-26 in 19 min — bilingual (EN/ZH), 5 routed screens, ready for backend wire-up.
+
 PoC v0 metrics (2 days of work, ~$0.07 in LLM cost):
 
 | Metric | Value |
 |---|---|
 | End-to-end install on blank VPS | 134s |
 | AI cost per install | ~$0.005 (¥0.04) |
-| Engineering specs hardened | 10/10 |
-| QA regression scenarios | 5/5 passing |
+| Engineering specs hardened | **10/10** (overnight Day 2) |
+| QA regression scenarios | **5/5 passing** |
+| Total AI cost (2 days) | ~$0.07 (¥0.51) |
+| AI self-retry loop validated | ✓ |
 
 ## Roadmap
 
